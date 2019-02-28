@@ -1,0 +1,40 @@
+
+#day, #date {
+  text-align: center;
+  box-sizing: border-box;
+  height: 100px;
+  width: 80px;
+  border-radius: 10%;
+  border: 10px solid #A6EDE2;
+  box-shadow: 2px 2px 2px #324376, -2px 2px 2px #324376, -2px -2px 2px #324376, 2px -2px 2px #324376;
+  margin-top: 5%;
+}
+
+#day {
+  background: #DDF8E8;
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 10px;
+}
+
+#day span {
+  display: block;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#date {
+  padding-top: 8px;
+  background: #DDF8E8;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+#date span {
+  display: block;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 5px;
+  padding-bottom: 15px;
+}
